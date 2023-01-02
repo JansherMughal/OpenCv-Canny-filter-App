@@ -41,6 +41,4 @@ def main_loop():
        st.image(original_image, channels="BGR")
        st.image(processed_image) 
 
-
-if __name__ == '__main__':
-    main_loop()
+main_loop()
